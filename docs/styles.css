@@ -1,0 +1,78 @@
+body {
+    background-color: #0a0a23; /* Very dark blue background color */
+    margin: 0; /* Remove default margin */
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Professional font */
+    color: #f0f0f0; /* Light gray color for text */
+}
+
+header {
+    background-color: #141432; /* Slightly lighter dark blue for header */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 50px; /* Adjust the size as needed */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: #f0f0f0; /* Light gray color for links */
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.hero {
+    padding: 40px 20px;
+    background-color: #1a1a2e; /* Darker section background */
+    margin-bottom: 20px;
+}
+
+.services {
+    padding: 20px;
+}
+
+.services h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.services ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.services li {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #141432; /* Match header color */
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
