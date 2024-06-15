@@ -1,8 +1,12 @@
-body {
-    background-color: #0a0a23; /* Very dark blue background color */
+/* Apply Flexbox to the body and ensure it takes the full viewport height */
+html, body {
+    height: 100%; /* Ensure the body takes up the full height of the viewport */
     margin: 0; /* Remove default margin */
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Professional font */
     color: #f0f0f0; /* Light gray color for text */
+    display: flex; /* Apply Flexbox to the body */
+    flex-direction: column; /* Arrange children in a column */
+    background-color: #0a0a23; /* Very dark blue background color */
 }
 
 header {
@@ -41,6 +45,7 @@ nav a:hover {
 main {
     padding: 20px;
     text-align: center;
+    flex: 1; /* Allow the main content to grow and take up available space */
 }
 
 .hero {
@@ -72,7 +77,4 @@ footer {
     background-color: #141432; /* Match header color */
     padding: 10px;
     text-align: center;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
 }
